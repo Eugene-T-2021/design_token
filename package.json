@@ -1,0 +1,15 @@
+{
+  "name": "design token test",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "node ./build.js",
+    "clean": "rm -rf output"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "style-dictionary": "^3.8.0",
+    "token-transformer": "^0.0.33"
+  }
+}
