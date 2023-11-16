@@ -9,8 +9,8 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.4.0
       - run: npm install
-      # - run: npx token-transformer data/tokens.json input/reference.json reference
-      # - run: npx token-transformer data/tokens.json input/semantic.json reference,semantic reference
+      - run: npx token-transformer data/tokens.json input/core.json core
+      - run: npx token-transformer data/tokens.json input/semantic.json core,semantic core
       # - run: npx token-transformer data/tokens.json input/component.json reference,semantic,component reference,semantic
       - run: npx style-dictionary build
       - uses: stefanzweifel/git-auto-commit-action@v4
