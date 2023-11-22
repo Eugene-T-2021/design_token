@@ -26,7 +26,7 @@ jobs:
           src_branch: main
           src_path: build/scss/.
           dst_owner: tjyone
-          dst_repo_name: sync_demo
+          dst_repo_name: git@github.com:tjyone/sync_demo.git
           dst_branch: main
           dst_path: src/.
           # username: tjyone
