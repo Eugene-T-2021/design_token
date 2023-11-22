@@ -22,10 +22,10 @@ jobs:
     steps:
       - uses: andstor/copycat-action@v3.2.4
         with:
-          # personal_token: ${{ secrets.GH_PAT }}
+          personal_token: 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
           src_branch: main
           src_path: main/build/scss/
-          # dst_owner: nyan-matt
+          dst_owner: tjyone
           dst_repo_name: sync_demo
           dst_branch: main
           dst_path: src/scss/
