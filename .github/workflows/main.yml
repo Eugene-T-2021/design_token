@@ -16,3 +16,19 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: build tokens
+  copy_tokens:
+    runs-on: ubuntu-latest
+    needs: [build_tokens]
+    steps:
+      - uses: andstor/copycat-action@v3.2.4
+        with:
+          # personal_token: ${{ secrets.GH_PAT }}
+          src_branch: main
+          src_path: output/.
+          dst_owner: nyan-matt
+          dst_repo_name: sync_demo
+          dst_branch: main
+          dst_path: src/css/
+          # username: nyan-matt
+          # email: matt.rea@gmail.com
+          commit_message: copy css tokens        
