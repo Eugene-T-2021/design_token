@@ -24,7 +24,7 @@ jobs:
         with:
           personal_token: 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
           src_branch: main
-          src_path: main/build/scss/
+          src_path: build/scss/
           dst_owner: tjyone
           dst_repo_name: sync_demo
           dst_branch: main
