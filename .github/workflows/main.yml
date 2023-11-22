@@ -22,7 +22,7 @@ jobs:
     steps:
       - uses: andstor/copycat-action@v3.2.4
         with:
-          personal_token: ${{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}}
+          personal_token: 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
           src_branch: main
           src_path: build/scss/.
           dst_owner: tjyone
