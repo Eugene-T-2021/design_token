@@ -29,6 +29,6 @@ jobs:
           dst_repo_name: sync_demo
           dst_branch: main
           dst_path: src/.
-          # username: tjyone
+          username: tjyone
           # email: tjyone@hotmail.com
           commit_message: copy css tokens        
