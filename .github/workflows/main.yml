@@ -24,11 +24,11 @@ jobs:
         with:
           personal_token: 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
           src_branch: main
-          src_path: build/scss/
+          src_path: build/scss/.
           dst_owner: tjyone
           dst_repo_name: sync_demo
           dst_branch: main
-          dst_path: src/scss/
-          # username: nyan-matt
-          # email: matt.rea@gmail.com
+          dst_path: src/.
+          username: tjyone
+          email: tjyone@hotmail.com
           commit_message: copy css tokens        
