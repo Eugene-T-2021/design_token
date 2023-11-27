@@ -22,7 +22,7 @@ jobs:
     steps:
       - uses: andstor/copycat-action@v3.2.4
         with:
-          personal_token: ${{ secrets.GITHUB_TOKEN }}
+          personal_token: ${{ secrets.TOKEN_TEST }}
           src_branch: main
           src_path: build/scss/.
           dst_owner: tjyone
