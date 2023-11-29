@@ -1,57 +1,65 @@
 {
   "text": {
-    "[semantic]": {
-      "action": {
-        "value": "#005AD2",
-        "type": "color"
-      },
-      "success": {
-        "value": "#00A843",
-        "type": "color"
-      },
-      "error": {
-        "value": "#FB1514",
-        "type": "color"
-      },
-      "warning": {
-        "value": "#F68226",
-        "type": "color"
-      },
-      "promote": {
-        "value": "#F68226",
-        "type": "color"
-      },
-      "promote02": {
-        "value": "#FFD502",
-        "type": "color"
-      }
+    "primary": {
+      "value": "#141414",
+      "type": "color",
+      "description": "Standard heading & body text on light background."
     },
-    "on-light": {
-      "primary": {
-        "value": "#141414",
-        "type": "color"
-      },
-      "secondary": {
-        "value": "#00000080",
-        "type": "color"
-      },
-      "disabled": {
-        "value": "#0000004d",
-        "type": "color"
-      }
+    "secondary": {
+      "value": "#00000080",
+      "type": "color",
+      "description": "Secondary text, usually body text on light background."
     },
-    "on-dark": {
+    "disabled": {
+      "value": "#0000004d",
+      "type": "color",
+      "description": "Disabled & inactive text/button on light background."
+    },
+    "action": {
+      "value": "#005AD2",
+      "type": "color",
+      "description": "Action, informative & clickable text."
+    },
+    "success": {
+      "value": "#00A843",
+      "type": "color",
+      "description": "Success state."
+    },
+    "error": {
+      "value": "#FB1514",
+      "type": "color",
+      "description": "Error & fail state."
+    },
+    "warning": {
+      "value": "#F68226",
+      "type": "color",
+      "description": "Warning text."
+    },
+    "promote": {
+      "value": "#F68226",
+      "type": "color",
+      "description": "Promotion text."
+    },
+    "inverse": {
       "primary": {
         "value": "#FFFFFF",
-        "type": "color"
+        "type": "color",
+        "description": "Standard heading & body text on dark background."
       },
       "secondary": {
         "value": "#ffffffcc",
-        "type": "color"
+        "type": "color",
+        "description": "Secondary text, usually body text on dark background."
       },
       "disabled": {
         "value": "#ffffff99",
-        "type": "color"
+        "type": "color",
+        "description": "Disabled & inactive text/button on dark background."
+      },
+      "promote": {
+        "value": "#FFD502",
+        "type": "color",
+        "description": "Promote text on dark background."
       }
     }
   },
@@ -297,30 +305,6 @@
       "type": "typography"
     }
   },
-  "list-item": {
-    "border": {
-      "default": {
-        "value": "#EDEDED",
-        "type": "color"
-      },
-      "accent": {
-        "value": "#141414",
-        "type": "color"
-      },
-      "highlight": {
-        "value": "linear-gradient (315deg, #FFFFFF3D 0%, #FFFFFFA3 100%).",
-        "type": "color"
-      },
-      "focused-01": {
-        "value": "#00A843",
-        "type": "color"
-      },
-      "focused-02": {
-        "value": "#FFD502",
-        "type": "color"
-      }
-    }
-  },
   "radius": {
     "xs": {
       "value": "2px",
@@ -371,6 +355,34 @@
     "xl": {
       "value": "3px",
       "type": "borderWidth"
+    },
+    "primary": {
+      "value": "#141414",
+      "type": "color"
+    },
+    "secondary": {
+      "value": "#EDEDED",
+      "type": "color"
+    },
+    "inverse": {
+      "value": "#FFFFFF",
+      "type": "color"
+    },
+    "selected-default": {
+      "value": "#FFD502",
+      "type": "color"
+    },
+    "selected-accent": {
+      "value": "#00A843",
+      "type": "color"
+    },
+    "error": {
+      "value": "#FB1514",
+      "type": "color"
+    },
+    "highlight-[temp]": {
+      "value": "#",
+      "type": "color"
     }
   },
   "spacing": {
@@ -437,6 +449,108 @@
     "8xl": {
       "value": "80px",
       "type": "spacing"
+    }
+  },
+  "icon": {
+    "primary": {
+      "value": "#141414",
+      "type": "color"
+    },
+    "secondary": {
+      "value": "#00000080",
+      "type": "color"
+    },
+    "disabled": {
+      "value": "#0000004d",
+      "type": "color"
+    },
+    "action": {
+      "value": "#005AD2",
+      "type": "color"
+    },
+    "success": {
+      "value": "#00A843",
+      "type": "color"
+    },
+    "error": {
+      "value": "#FB1514",
+      "type": "color"
+    },
+    "warning": {
+      "value": "#F68226",
+      "type": "color"
+    },
+    "promote": {
+      "value": "#F68226",
+      "type": "color"
+    },
+    "inverse": {
+      "primary": {
+        "value": "#FFFFFF",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "#ffffffcc",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "#ffffff99",
+        "type": "color"
+      },
+      "promote": {
+        "value": "#FFD502",
+        "type": "color"
+      }
+    }
+  },
+  "action": {
+    "primary": {
+      "value": "#FFD502",
+      "type": "color"
+    },
+    "secondary": {
+      "value": "#E5E5E5",
+      "type": "color"
+    },
+    "accent": {
+      "value": "#00A843",
+      "type": "color"
+    },
+    "warning": {
+      "value": "#FB1514",
+      "type": "color"
+    },
+    "disabled": {
+      "value": "#CBCBCB",
+      "type": "color"
+    },
+    "inverse": {
+      "value": "#FFFFFF",
+      "type": "color"
+    },
+    "link": {
+      "value": "#005AD2",
+      "type": "color"
+    }
+  },
+  "page": {
+    "primary": {
+      "value": "#FFFFFF",
+      "type": "color"
+    },
+    "secondary": {
+      "value": "#F2F2F2",
+      "type": "color"
+    }
+  },
+  "surface": {
+    "primary": {
+      "value": "#FFFFFF",
+      "type": "color"
+    },
+    "secondary": {
+      "value": "#F2F2F2",
+      "type": "color"
     }
   }
 }
