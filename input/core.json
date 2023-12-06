@@ -1336,5 +1336,15 @@
   "1200[temp]": {
     "value": "120px",
     "type": "dimension"
+  },
+  "pingfang": {
+    "value": {
+      "fontFamily": "PingFang SC",
+      "fontWeight": "regular",
+      "fontSize": "10px",
+      "lineHeight": "10px",
+      "letterSpacing": "2px"
+    },
+    "type": "typography"
   }
 }
