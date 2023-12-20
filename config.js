@@ -9,7 +9,7 @@ const mixinizeObj = (token) => {
 }
 
 module.exports = {
-  source: [`transformed/**/*.json`],
+  source: [`input/**/*.json`],
   transform: {
     typoTransform: {
       type: 'value',
