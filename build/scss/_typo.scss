@@ -91,6 +91,14 @@
   text-decoration: underline
 }
 
+@mixin content-link03 {
+  font-family: 'Academy Engraved LET'
+  font-size: 12px
+  font-weight: 500
+  line-height: 10px
+  letter-spacing: 11px
+}
+
 @mixin heading-en-heading-01 {
   font-family: 'Cera Pro'
   font-weight: Black

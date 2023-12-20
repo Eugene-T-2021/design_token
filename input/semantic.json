@@ -173,6 +173,16 @@
         "textDecoration": "underline"
       },
       "type": "typography"
+    },
+    "link03": {
+      "value": {
+        "fontFamily": "Academy Engraved LET",
+        "fontSize": "12px",
+        "fontWeight": 500,
+        "lineHeight": "10px",
+        "letterSpacing": "11px"
+      },
+      "type": "typography"
     }
   },
   "heading-en": {
