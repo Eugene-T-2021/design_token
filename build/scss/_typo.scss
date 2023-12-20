@@ -1,0 +1,191 @@
+@mixin pingfang {
+  font-family: 'PingFang SC'
+  font-weight: regular
+  font-size: 10px
+  line-height: 10px
+  letter-spacing: 2px
+}
+
+@mixin content-title-01 {
+  font-family: 'PingFang SC'
+  font-weight: Semibold
+  font-size: 22
+  line-height: 32
+}
+
+@mixin content-title-02 {
+  font-family: 'PingFang SC'
+  font-weight: Semibold
+  line-height: 26
+  font-size: 18
+}
+
+@mixin content-subtitle-01 {
+  font-family: 'PingFang SC'
+  font-weight: Semibold
+  line-height: 24
+  font-size: 16
+}
+
+@mixin content-subtitle-02 {
+  font-family: 'PingFang SC'
+  font-weight: Regular
+  line-height: 24
+  font-size: 16
+}
+
+@mixin content-body-01 {
+  font-family: 'PingFang SC'
+  font-weight: Semibold
+  line-height: 21
+  font-size: 14
+}
+
+@mixin content-body-02 {
+  font-family: 'PingFang SC'
+  font-weight: Regular
+  line-height: 21
+  font-size: 14
+}
+
+@mixin content-description-01 {
+  font-family: 'PingFang SC'
+  font-weight: Semibold
+  line-height: 18
+  font-size: 12
+}
+
+@mixin content-description-02 {
+  font-family: 'PingFang SC'
+  font-weight: Regular
+  line-height: 18
+  font-size: 12
+}
+
+@mixin content-caption-01 {
+  font-family: 'PingFang SC'
+  font-weight: Semibold
+  line-height: 14
+  font-size: 10
+}
+
+@mixin content-caption-02 {
+  font-family: 'PingFang SC'
+  font-weight: Regular
+  line-height: 14
+  font-size: 10
+}
+
+@mixin content-link-01 {
+  font-family: 'PingFang SC'
+  font-weight: Semibold
+  line-height: 20
+  font-size: 14
+  text-decoration: underline
+}
+
+@mixin content-link-02 {
+  font-family: 'PingFang SC'
+  font-weight: Semibold
+  line-height: 18
+  font-size: 12
+  text-decoration: underline
+}
+
+@mixin heading-en-heading-01 {
+  font-family: 'Cera Pro'
+  font-weight: Black
+  line-height: 52
+  font-size: 40
+}
+
+@mixin heading-en-heading-02 {
+  font-family: 'Cera Pro'
+  font-weight: Black
+  line-height: 48
+  font-size: 32
+}
+
+@mixin heading-en-heading-03 {
+  font-family: 'Cera Pro'
+  font-weight: Black
+  line-height: 32
+  font-size: 22
+}
+
+@mixin heading-en-heading-04 {
+  font-family: 'Cera Pro'
+  font-weight: Black
+  line-height: 28
+  font-size: 18
+}
+
+@mixin heading-en-heading-05 {
+  font-family: 'Cera Pro'
+  font-weight: Black
+  line-height: 24
+  font-size: 16
+}
+
+@mixin heading-en-heading-06 {
+  font-family: 'Cera Pro'
+  font-weight: Black
+  line-height: 22
+  font-size: 14
+}
+
+@mixin heading-en-heading-07 {
+  font-family: 'Cera Pro'
+  font-weight: Black
+  line-height: 18
+  font-size: 12
+}
+
+@mixin heading-cn-heading-01 {
+  font-family: 'Noto Sans CJK SC'
+  font-weight: Black
+  line-height: 52
+  font-size: 40
+}
+
+@mixin heading-cn-heading-02 {
+  font-family: 'Noto Sans CJK SC'
+  font-weight: Black
+  line-height: 48
+  font-size: 32
+}
+
+@mixin heading-cn-heading-03 {
+  font-family: 'Noto Sans CJK SC'
+  font-weight: Black
+  line-height: 32
+  font-size: 22
+}
+
+@mixin heading-cn-heading-04 {
+  font-family: 'Noto Sans CJK SC'
+  font-weight: Black
+  line-height: 28
+  font-size: 18
+}
+
+@mixin heading-cn-heading-05 {
+  font-family: 'Noto Sans CJK SC'
+  font-weight: Black
+  line-height: 24
+  font-size: 16
+}
+
+@mixin heading-cn-heading-06 {
+  font-family: 'Noto Sans CJK SC'
+  font-weight: Black
+  line-height: 22
+  font-size: 14
+}
+
+@mixin heading-cn-heading-07 {
+  font-family: 'Noto Sans CJK SC'
+  font-weight: Black
+  line-height: 18
+  font-size: 12
+}

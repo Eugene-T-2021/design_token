@@ -1,0 +1,47 @@
+@mixin shadow-middle-100 {
+  box-shadow: 0 0 2 1 #00000014, 0 0 1 1 #0000000f
+}
+
+@mixin shadow-middle-200 {
+  box-shadow: 0 0 8 1 #0000001a, 0 0 2 1.4 #0000000f
+}
+
+@mixin shadow-middle-300 {
+  box-shadow: 0 0 16 4 #0000001a, 0 0 2 1 #0000000f
+}
+
+@mixin shadow-middle-400 {
+  box-shadow: 0 0 24 8 #0000001f, 0 0 2 1 #00000014
+}
+
+@mixin shadow-down-100 {
+  box-shadow: 0 4 2 -2 #00000026, 0 1 1 0 #0000000f
+}
+
+@mixin shadow-down-200 {
+  box-shadow: 0 8 8 -4 #00000026, 0 1 2 -1 #0000000f
+}
+
+@mixin shadow-down-300 {
+  box-shadow: 0 16 16 -8 rgba(0,0,0,0.15, 0 1.4 1.4 -0.7 #0000000f
+}
+
+@mixin shadow-down-400 {
+  box-shadow: 0 24 24 -12 #00000033, 0 2 2 -1 #00000014
+}
+
+@mixin shadow-up-100 {
+  box-shadow: 0 -4 2 -2 #00000026, 0 -1 1 0 #0000000f
+}
+
+@mixin shadow-up-200 {
+  box-shadow: 0 -8 8 -4 #00000026, 0 -1 2 -1 #0000000f
+}
+
+@mixin shadow-up-300 {
+  box-shadow: 0 -16 16 -8 rgba(0,0,0,0.15, 0 -1.4 1.4 -0.7 #0000000f
+}
+
+@mixin shadow-up-400 {
+  box-shadow: 0 -24 24 -12 #00000033, 0 -2 2 -1 #00000014
+}
