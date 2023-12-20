@@ -1056,7 +1056,7 @@
             "y": 16,
             "blur": 16,
             "spread": -8,
-            "color": "rgba(0,0,0,0.15",
+            "color": "#00000026",
             "type": "dropShadow"
           },
           {
@@ -1142,7 +1142,7 @@
             "y": -16,
             "blur": 16,
             "spread": -8,
-            "color": "rgba(0,0,0,0.15",
+            "color": "#00000026",
             "type": "dropShadow"
           },
           {
@@ -1337,14 +1337,17 @@
     "value": "120px",
     "type": "dimension"
   },
-  "pingfang": {
+  "test": {
     "value": {
-      "fontFamily": "PingFang SC",
-      "fontWeight": "regular",
-      "fontSize": "10px",
-      "lineHeight": "10px",
-      "letterSpacing": "2px"
+      "fontFamily": "Noto Sans CJK SC",
+      "fontWeight": 600,
+      "fontSize": "12px",
+      "lineHeight": "14px"
     },
     "type": "typography"
+  },
+  "sm": {
+    "value": "12px",
+    "type": "fontSizes"
   }
 }
